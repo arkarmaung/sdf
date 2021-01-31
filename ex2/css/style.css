@@ -59,31 +59,12 @@ button {
   font-weight: 700;
 }
 
-.backpic {
-  display: flex;
-  background: url("../images/bg-intro-mobile.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  justify-content: center;
-}
-
-.backpic img {
-  justify-self: center;
-  align-self: center;
-  min-width: 50rem;
-  max-height: 65rem;
-}
 
 .text h1 {
   font-weight: 400;
 }
 
-.text {
-}
+
 
 @media (max-width: 900px) {
   .lists {
