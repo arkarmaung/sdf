@@ -1,0 +1,98 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+::after {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem 10%;
+  align-items: center;
+  margin: 0;
+}
+
+.navbar > a {
+  margin-top: 0.5rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger span {
+  display: block;
+  border: 0.2rem solid black;
+  width: 2.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.lists a {
+  text-decoration: none;
+  color: hsl(233, 8%, 62%);
+  margin: 0 0.3rem;
+}
+
+button {
+  width: 16.5rem;
+  height: 4.3rem;
+  color: white;
+  background: linear-gradient(to right, #00f260, #0575e6);
+  border: none;
+  border-radius: 2rem;
+  font-weight: 700;
+}
+
+.backpic {
+  display: flex;
+  background: url("../images/bg-intro-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.backpic img {
+  justify-self: center;
+  align-self: center;
+  min-width: 50rem;
+  max-height: 65rem;
+}
+
+.text h1 {
+  font-weight: 400;
+}
+
+.text {
+}
+
+@media (max-width: 900px) {
+  .lists {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}

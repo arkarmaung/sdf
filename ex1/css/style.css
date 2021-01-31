@@ -1,0 +1,202 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2.2rem;
+  margin: 0;
+  font-size: 1.6rem;
+  background: rgb(241, 255, 249);
+  color: grey;
+}
+
+#navbar {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: flex-end;
+}
+
+.table {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul {
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#navbar li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 0;
+  padding: 0.7rem;
+  color: rgb(165, 165, 165);
+}
+
+#navbar a:hover {
+  border-bottom: 0.4rem solid rgb(62, 236, 120);
+}
+
+.mainhead {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.maindiv {
+  width: 60rem;
+  height: 55rem;
+  text-align: justify;
+  padding: 8rem;
+  box-sizing: border-box;
+}
+
+h1 {
+  line-height: 5.5rem;
+  font-size: 4rem;
+  color: black;
+}
+
+.sidediv {
+  width: 80rem;
+  height: 55rem;
+  background-image: url("../images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  box-sizing: border-box;
+  padding-bottom: 1rem;
+}
+
+.sidediv img {
+  margin-left: 15rem;
+  width: 45rem;
+  height: auto;
+}
+
+.art {
+  background: rgb(219, 255, 240);
+  padding: 8rem;
+}
+
+.topclass {
+  margin-bottom: 5rem;
+}
+.onlyhead {
+  padding-left: 8rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.artgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.blogsec {
+  padding: 0 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1.2rem;
+}
+
+.blogsec img {
+  width: 25rem;
+  height: 19rem;
+  border-radius: 1rem;
+  margin-bottom: 0;
+}
+
+.blogs {
+}
+
+.blogs p {
+  font-size: 1.6rem;
+  padding: 2rem;
+  margin-top: 0;
+}
+
+.smallsize {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: black;
+}
+
+.blogs a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.blogs a:hover {
+  color: rgb(3, 0, 189);
+  text-shadow: 0px 1px 1px rgb(165, 165, 165);
+}
+
+.mainfooter {
+  padding: 8rem;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  justify-content: space-around;
+}
+
+.divided {
+  font-size: 1.4rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.splited a {
+  text-decoration: none;
+  color: white;
+  width: 10rem;
+}
+
+.alink a {
+  display: block;
+}
+
+.splited a:hover {
+  color: rgb(62, 236, 120);
+}
+
+button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  background: linear-gradient(to right, #00f260, #0575e6);
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 1;
+}
